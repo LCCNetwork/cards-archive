@@ -1,0 +1,59 @@
+{
+  "name": "Cards",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "latest",
+    "history": "^4.7.2",
+    "material-ui": "^1.0.0-beta.16",
+    "material-ui-icons": "^1.0.0-beta.15",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-loadable": "^5.3.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "redux": "^3.7.2",
+    "vulcanize-loader": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "bundle-loader": "^0.5.5",
+    "css-loader": "^0.28.7",
+    "ejs": "^2.5.6",
+    "eslint": "^4.9.0",
+    "extract-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.6",
+    "standard": "^10.0.3",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "scripts": {
+    "build": "webpack -d",
+    "start": "webpack -d && node src/app/server.js",
+    "devStart": "webpack-dev-server",
+    "test": "standard && webpack -d"
+  },
+  "repository": "git+https://github.com/LCCNetwork/Cards",
+  "author": "Aidan Goettsch and Brian Xiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LCCNetwork/Cards/issues"
+  },
+  "homepage": "https://github.com/LCCNetwork/Cards#readme"
+}
